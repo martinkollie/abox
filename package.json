@@ -1,0 +1,15 @@
+{
+  "name": "abox",
+  "version": "1.0.0",
+  "description": "Tiny macOS sandbox-exec wrapper for GitHub Copilot CLI",
+  "bin": {
+    "abox": "./src/index.ts"
+  },
+  "scripts": {
+    "start": "bun src/index.ts",
+    "build": "bun build --compile --outfile dist/abox src/index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}
